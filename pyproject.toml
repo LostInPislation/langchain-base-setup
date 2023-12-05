@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchain-test"
+version = "0.1.0"
+description = ""
+authors = ["daguenette <daguenette.data@gmail.com>"]
+readme = "README.md"
+packages = [{ include ="app"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.0.346"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "app.main:start"
