@@ -9,6 +9,8 @@ packages = [{ include ="app"}]
 [tool.poetry.dependencies]
 python = "^3.12"
 langchain = "^0.0.346"
+youtube-transcript-api = "^0.6.1"
+pytube = "^15.0.0"
 
 
 [build-system]
